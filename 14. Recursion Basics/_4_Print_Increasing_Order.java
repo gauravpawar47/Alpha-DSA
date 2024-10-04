@@ -9,6 +9,7 @@ public class _4_Print_Increasing_Order
             return;
         }
 
+        // Kaam
         printIncreasing(n - 1);
         System.out.print(n +" ");
     }

@@ -114,6 +114,6 @@ public class PracticeSet
         // Q 5. Tower Of Hanoi
 
         int disks = 3;
-        Question5(3, "S", "H", "D");
+        Question5(disks, "S", "H", "D");
     }
 }

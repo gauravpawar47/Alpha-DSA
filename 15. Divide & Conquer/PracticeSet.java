@@ -104,9 +104,8 @@ public class PracticeSet
     public static void print(String[] arr)
     {
         System.out.print("Array Elements : ");
-        for(int i = 0; i < arr.length; i++)
-        {
-            System.out.print(arr[i] +" ");
+        for (String arr1 : arr) {
+            System.out.print(arr1 + " ");
         }
         System.out.println();
     }
